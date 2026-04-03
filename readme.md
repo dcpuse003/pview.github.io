@@ -7,10 +7,10 @@ GitHub 與 BitBucket HTML 預覽
 
 ## 用法(Usage)
 
-#### 若要使用此功能，只需在任何 HTML 檔案的 URL 前加上以下片段：**[https://htmlpreview.github.io/?](https://htmlpreview.github.io/?)** 例如：
+#### 若要使用此功能，只需在任何 HTML 檔案的 URL 前加上以下片段：**[https://pview.github.io/?](https://pview.github.io/?)** 例如：
 
- - https://htmlpreview.github.io/?https://github.com/twbs/bootstrap/gh-pages/2.3.2/index.html
- - https://htmlpreview.github.io/?https://github.com/documentcloud/backbone/blob/master/examples/todos/index.html
+ - https://pview.github.io/?https://github.com/twbs/bootstrap/gh-pages/2.3.2/index.html
+ - https://pview.github.io/?https://github.com/documentcloud/backbone/blob/master/examples/todos/index.html
 
 #### 其運作方式是：先透過 CORS 代理伺服器載入 HTML，接著處理所有連結、框架、腳本及樣式，並透過 CORS 代理伺服器載入這些元素，以便瀏覽器能對其進行解析。
 
